@@ -1,6 +1,3 @@
-// Tic Tac Toe Game by Duanel.
-// v: a.10
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -37,12 +34,12 @@ void mainMenu()
     std::cout << "    |                                              |   " << std::endl;
     if (selected == 0)
     {
-        std::cout << "    |                 -> |PLAY| (Local)            |   " << std::endl;
+        std::cout << "    |                 -> |PLAY|                    |   " << std::endl;
         std::cout << "    |                    |EXIT|                    |   " << std::endl;
     }
     else
     {
-        std::cout << "    |                    |PLAY| (Local)            |   " << std::endl;
+        std::cout << "    |                    |PLAY|                    |   " << std::endl;
         std::cout << "    |                 -> |EXIT|                    |   " << std::endl;
     }
     std::cout << "    |                                              |   " << std::endl;
@@ -95,19 +92,18 @@ void mainMenu()
             std::cout << "    |                                              |   " << std::endl;
             if (selected == 0)
             {
-                std::cout << "    |                 -> |PLAY| (Local)            |   " << std::endl;
+                std::cout << "    |                 -> |PLAY|                    |   " << std::endl;
                 std::cout << "    |                    |EXIT|                    |   " << std::endl;
             }
             else
             {
-                std::cout << "    |                    |PLAY| (Local)            |   " << std::endl;
+                std::cout << "    |                    |PLAY|                    |   " << std::endl;
                 std::cout << "    |                 -> |EXIT|                    |   " << std::endl;
             }
             std::cout << "    |                                              |   " << std::endl;
             std::cout << "    |______________________________________________|   " << std::endl;
             std::cout << std::endl
                       << std::endl;
-            std::cout << "  Multiplayer online coming soon!!                     " << std::endl;
             std::cout << "  Created by Duanel.                            v a1.0 " << std::endl;
             std::cout << std::endl
                       << std::endl;
@@ -138,7 +134,7 @@ bool fillVector(int box, char (&boardVector)[9], char playerIcon)
     }
     else
     {
-        std::cout << "Este campo ya esta ocupado." << std::endl;
+        std::cout << "This field is already filled." << std::endl;
     }
     return false;
 }
