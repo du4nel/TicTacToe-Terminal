@@ -1,2 +1,2 @@
-# TicTacToe-Terminal
-A example of famous Tic-Tac-Toe game played on Windows terminal.
+# Windows terminal games.
+Collection of mini games to play on windows terminal.
